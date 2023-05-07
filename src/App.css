@@ -1,0 +1,65 @@
+/* root */
+.App {
+  padding-top: 100px;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(52, 4, 58);
+}
+
+/* 1st div */
+.container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+/* middle button */
+.hover_btn {
+  text-align: center;
+  border-radius: 2rem;
+  border-color: white;
+  padding: 1rem;
+  background-color: navy;
+  color: white;
+  font-weight: bolder;
+}
+
+.hover_btn:hover{
+  background-color: darkcyan;
+  color:black ;
+  font-size: 0.9rem; 
+  border: none;
+  box-shadow: 4px 4px 4px rgba(227, 223, 245, 0.897);  
+}
+/* Button which show side */
+.pos_btn {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 10rem;
+}
+
+.pos_btn button {
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  border-color: whitesmoke;
+  background-color: black;
+  color: white;
+  margin-left: 50px;
+
+}
+
+.pos_btn button:hover {
+  background-color: rgb(156, 28, 221);
+  color:black;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.6rem;
+  box-shadow: 4px -3px 0px 0px white;
+}
+
+
